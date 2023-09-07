@@ -1,8 +1,8 @@
 //formulario
 
 document.getElementById("guardarBtn").addEventListener("click", function() {
-    var nombre = document.getElementById("nombre").value;
-    var email = document.getElementById("email").value;
+    let nombre = document.getElementById("nombre").value;
+    let email = document.getElementById("email").value;
         
     // Guardar información localmente
     localStorage.setItem("nombre", nombre);
